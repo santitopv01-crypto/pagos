@@ -14,8 +14,8 @@
  * 8. Copia la URL y pégala aquí ↓
  */
 
-// ⚠️ IMPORTANTE: Reemplaza esta URL con tu Google Apps Script Web App
-const API_URL = "PEGA_AQUI_TU_URL_APPS_SCRIPT_WEB_APP";
+// ✅ URL DE GOOGLE APPS SCRIPT WEB APP (Configurada)
+const API_URL = "https://script.google.com/macros/s/AKfycbzM-Oo6lSvuRONYFsDmNHgBQwi747pU_x8MwNjHLXg7jfj4scC5Jyvr6CiI-6zHQpvJ/exec";
 
 /**
  * Configuración de Google Sign-In
@@ -83,3 +83,4 @@ function getApiBaseUrl() {
 }
 
 console.log("✅ Configuración cargada correctamente");
+console.log("✅ API_URL:", API_URL);
