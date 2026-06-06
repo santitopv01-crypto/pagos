@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pagos - Santiago</title>
+
+<style>
+    body{
+        margin:0;
+        font-family:Arial, sans-serif;
+        background:#f5f7fa;
+        color:#333;
+    }
+
+    .container{
+        max-width:800px;
+        margin:auto;
+        padding:20px;
+        text-align:center;
+    }
+
+    .header{
+        background:#111827;
+        color:white;
+        padding:30px 20px;
+        border-radius:15px;
+        margin-bottom:25px;
+    }
+
+    .card{
+        background:white;
+        border-radius:15px;
+        padding:20px;
+        margin-bottom:20px;
+        box-shadow:0 2px 10px rgba(0,0,0,.1);
+    }
+
+    .qr{
+        width:250px;
+        max-width:100%;
+        border-radius:10px;
+        margin:15px 0;
+    }
+
+    .btn{
+        display:inline-block;
+        text-decoration:none;
+        background:#25D366;
+        color:white;
+        padding:12px 20px;
+        border-radius:10px;
+        font-weight:bold;
+    }
+
+    .footer{
+        margin-top:20px;
+        font-size:.9rem;
+        color:#666;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>💳 Métodos de Pago</h1>
+        <p>Escanea el QR de tu preferencia</p>
+    </div>
+
+    <div class="card">
+        <h2>🏦 Ueno Bank</h2>
+        <img src="ueno-qr.png" alt="QR Ueno" class="qr">
+        <p>Transferencia mediante QR interoperable.</p>
+    </div>
+
+    <div class="card">
+        <h2>🥭 Mango</h2>
+        <img src="mango-qr.png" alt="QR Mango" class="qr">
+        <p>Cobro rápido desde Mango.</p>
+    </div>
+
+    <div class="card">
+        <h2>📱 Tigo Money</h2>
+        <img src="tigo-qr.png" alt="QR Tigo Money" class="qr">
+        <p>Pago mediante QR o billetera Tigo Money.</p>
+    </div>
+
+    <div class="card">
+        <h2>✅ ¿Ya realizaste el pago?</h2>
+        <p>Envía tu comprobante por WhatsApp.</p>
+
+        <a
+        href="https://wa.me/595994457614?text=Hola,%20ya%20realic%C3%A9%20el%20pago."
+        class="btn">
+        Enviar Comprobante
+        </a>
+    </div>
+
+    <div class="footer">
+        © 2026 Santiago - Página personal de cobros
+    </div>
+
+</div>
+
+</body>
+</html>
